@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Cards</title>
+    <style>
+        #answerDiv{
+            width: 500px;
+            height: 200px;
+            color:black;
+            background-color: white;
+            outline:black;
+            outline-style: solid;
+            font-size: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--create div to hold answer and buttons with the answer as a data attribute-->
+    <div id="answerDiv"></div>
+    <br>
+    <button id="questionOne" data-answer = "Indianapolis">What's the capital of Indiana?</button>
+    <button id="questionTwo" data-answer = "Boise">What's the capital of Idaho?</button>
+    <button id="questionThree" data-answer="Honolulu">What's the capital of Hawaii?</button>
+
+    <script src="proj3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+</body>
+
+</html>

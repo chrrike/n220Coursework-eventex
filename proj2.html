@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+
+    <style>
+        #divColor{
+            height: 300px;
+            width: 800px;
+        }
+        #colorDisplay{
+            background-color: white;
+            height: 50px;
+            width: 800px;
+            outline-style: solid;
+            outline-color: gray;
+            color: black;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- create div to display color-->
+    <div id = "divColor"></div>
+    <br>
+    <!-- create div to display rgb values-->
+    <div id = "colorDisplay"></div>
+    <br>
+    <!-- create buttons with line breaks-->
+    <button id="redOne" data-attribute = 1 data-color = red>Red +1</button>
+    <button id="redFive" data-attribute = 5 data-color="red">Red +5</button>
+    <button id="redTen" data-attribute = 10 data-color="red">Red +10</button>
+    <br><br>
+    <button id="greenOne" data-attribute = 1 data-color="green">Green +1</button>
+    <button id="greenFive" data-attribute = 5 data-color="green">Green +5</button>
+    <button id="greenTen" data-attribute = 10 data-color="green">Green +10</button>
+    <br><br>
+    <button id="blueOne" data-attribute = 1 data-color="blue">Blue +1</button>
+    <button id="blueFive" data-attribute = 5 data-color="blue">Blue +5</button>
+    <button id="blueTen" data-attribute = 10 data-color="blue">Blue +10</button>
+
+    <script src="proj2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+</body>
+
+</html>
